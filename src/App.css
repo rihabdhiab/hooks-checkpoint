@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.App {
+  background-color: rgb(97, 95, 97);
+  color: aliceblue;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}

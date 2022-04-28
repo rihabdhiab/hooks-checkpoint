@@ -1,0 +1,25 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(65, 62, 62);
+    margin-bottom: 50px;
+    padding: 30px;
+    
+}
+
+.search-input {
+    height:50px ;
+    width: 240px; 
+    outline: none;
+    border-radius: 15px;
+    border: 2px outset rgb(65, 62, 62);
+    padding: 15px;
+}
+
+.add-button{
+    border: 2px outset rgb(65, 62, 62);
+    height: 40px;
+    width: 120px;
+    border-radius: 100px;
+}

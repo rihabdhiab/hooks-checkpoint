@@ -1,0 +1,32 @@
+.modal-box {
+    background: linear-gradient( #9c9da0, #c08d8d);
+    width: 560px;
+    height: 400px;
+    
+}
+.modal-box .modal-header{
+    color: #ca4848;
+}
+
+.modal-box .add-input{
+    height: 60px;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    outline: none;
+    border:2px solid #be7070;
+    border-radius: 15px;
+}
+.modal-box .button1{
+    background-color: #636161;
+    border: 2px #636161 outset;
+}
+
+.modal-box .button2{
+    background-color:#ca4848 ;
+    border: 2px outset #ca4848;
+}
+.modal-box .button2:hover{
+    background-color: #cf3838;
+    border: 2px outset #cf3838;
+}
