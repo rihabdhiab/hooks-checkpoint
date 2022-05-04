@@ -20,7 +20,7 @@ function SearchBar({setRate,setSearchInput,handleShow}){
            placeholder='search movie here.....'
            onChange={handleChange}/>
           <ReactStars
-           count={10}
+           count= {10}
            onChange={ratingChanged}
            size={34}
            activeColor="#ffd700"

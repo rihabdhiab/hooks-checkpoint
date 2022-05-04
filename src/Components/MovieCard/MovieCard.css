@@ -24,11 +24,14 @@
     height: 400px;
 }
 
-.movie-details .movie-title{
+.movie-title{
     text-align: center;
     padding: 1rem;
     background-color: rgb(104, 96, 96);
     font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline rgb(104, 96, 96);
+    color: aliceblue;
+    
 }
  .movie-details .description{
      position: absolute;

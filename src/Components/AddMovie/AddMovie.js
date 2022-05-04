@@ -42,6 +42,22 @@ function AddMovie ({handleSubmit,handleChange,show, setShow}){
             placeholder="rate.."
             onChange={handleChange}
             /> 
+            <input 
+            className="add-input"
+            name="id"
+            type="text"
+            placeholder="id.."
+            onChange={handleChange}
+            /> 
+            <input 
+            className="add-input"
+            name="trailer"
+            type="text"
+            placeholder="trailerURL.."
+            onChange={handleChange}
+            />
+           
+            
         </Modal.Body>
         <Modal.Footer>
           <Button className="button1" variant="secondary" onClick={handleClose}>
