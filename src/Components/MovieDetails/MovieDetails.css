@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
 }
-.title{
+.details-container .title{
     margin-bottom:50px;
     width: 300px;
     padding: 10px 30px;
@@ -29,6 +29,14 @@
     padding:0px 30px;
     background-color: rgb(161, 149, 149);
 }
+.details-container .rate{
+    font-size: 25px;
+    margin: 5px 0px;;
+    font-weight: bold;
+    width: 300px;
+    padding: 10px 40px;
+    text-align: center;
+}
 .details-container .description{
     background-color: rgb(161, 149, 149);
     width: 700PX;
@@ -38,7 +46,6 @@
     color: rgb(8, 8, 8);
     /*margin: 20px 0px;*/
     border: 2px solid black;
-    
 }
 .description-span{
     font-size: 25px;
@@ -48,14 +55,7 @@
     background-color: rgb(207, 193, 193);
     padding: 8px;
 }
-.rate{
-    font-size: 25px;
-    margin: 5px 0px;;
-    font-weight: bold;
-    width: 300px;
-    padding: 10px 40px;
-    text-align: center;
-}
+
 .details-container .button{
     width: 150px;
     background-color: antiquewhite;
